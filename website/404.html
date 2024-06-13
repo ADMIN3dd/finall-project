@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <link rel="icon" type="image/png" href="pictures/icon.png">
+  <title> 404 Error Page</title>
+
+</head>
+
+<body>
+  <style>
+    .error-page {
+      font-size: 100px;
+      text-align: center;
+    }
+
+    .center {
+      font-size: 40px;
+      text-align: center;
+
+    }
+
+    .pic {
+      display: block;
+      margin: auto;
+    }
+  </style>
+  <div class="error-page">
+    404 Page
+  </div>
+  <br>
+  <div class="center">
+    Bomboclat
+    <br>
+    <button onclick="HomePage()">Home Page</button>
+  </div>
+  <br>
+  <img src="pictures/404.gif" class="pic" />
+
+  <script>
+    function HomePage() {
+      window.location.href = "index.html";
+    }
+  </script>
+</body>
+
+</html>
